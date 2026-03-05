@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#0a0a0a"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="64" height="64" rx="12" fill="url(#gradient)" opacity="0.1"/>
+  
+  <!-- Border -->
+  <rect x="1" y="1" width="62" height="62" rx="11" stroke="#3b82f6" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Letters DH -->
+  <text x="32" y="43" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#3b82f6" text-anchor="middle">DH</text>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
